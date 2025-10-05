@@ -1,0 +1,83 @@
+# ============================
+# Django / Python .gitignore
+# ============================
+
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.mnv/
+.mnoryenv/
+.mnenv/
+.mnenv/
+.mnenv*/
+*.env
+*.venv
+*.idea/
+.vscode/
+pip-wheel-metadata/
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
+
+# Build / packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+
+# Logs
+*.log
+*.pot
+*.mo
+
+# Database - keep sqlite, ignore others
+# Ignore all databases except db.sqlite3
+*.db
+!db.sqlite3
+
+# Media uploads
+media/
+
+# System files
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Django specific
+*.pid
+celerybeat-schedule
+*.mo
+*.pot
+
+# Migrations (optional, uncomment if you want to ignore them)
+# **/migrations/
+# !**/migrations/__init__.py
+
+# Node and frontend stuff
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ============================
+# Keep static and templates
+# ============================
+
+# DO NOT ignore these
+!static/
+!static/**/*
+!templates/
+!templates/**/*
+
+# ============================
+# End
+# ============================

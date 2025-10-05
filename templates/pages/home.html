@@ -1,0 +1,455 @@
+{% extends 'base.html' %}
+{% load i18n static %}
+
+{% block content %}
+<main>
+<!-- Hero Section -->
+<section id="hero" class="hero section">
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row align-items-center">
+
+      <!-- Hero Content -->
+      <div class="col-lg-6">
+        <div class="hero-content text-end">
+
+          <div class="trust-badges mb-4" data-aos="fade-left" data-aos-delay="200">
+            <div class="badge-item">
+              <i class="bi bi-shield-check"></i>
+              <span>{% trans "معتمدون" %}</span>
+            </div>
+            <div class="badge-item">
+              <i class="bi bi-clock"></i>
+              <span>{% trans "خدمة طوارئ 24/7" %}</span>
+            </div>
+            <div class="badge-item">
+              <i class="bi bi-star-fill"></i>
+              <span>{% trans "تقييم 4.9/5" %}</span>
+            </div>
+          </div>
+
+          <h1 data-aos="fade-left" data-aos-delay="300" class="fw-bold">
+            {% trans "مرحبًا بكم مع مكتب" %} <span class="highlight">{% trans "توتال سرفيينج" %}</span>
+          </h1>
+
+          <p class="hero-description" data-aos="fade-left" data-aos-delay="400">
+            {% trans "شكرًا لك على زيارتك لنا، لقد بدأنا في القاهرة عام 2008، حيث نقوم بجميع أنواع أعمال تطوير الأراضي بدءًا من المسوحات الطبوغرافية وقياس الموقع وحتى التقسيمات الفرعية واسعة النطاق وإدارة المشاريع. ويتراوح عملاؤنا من أصحاب العقارات الفردية إلى المطورين على نطاق واسع والدوائر الحكومية." %}
+          </p>
+
+          <p class="hero-description" data-aos="fade-left" data-aos-delay="450">
+            {% trans "في مكتب توتال سرفيينج، فريقنا مؤهل بشكل احترافي، وتغطي خبراتنا مجموعة واسعة من التخصصات المساحية. ويستخدم مهندسونا ذوو المهارات العالية أحدث التقنيات والأجهزة المساحية لضمان الحصول على أدق النتائج." %}
+          </p>
+
+          <div class="hero-actions mt-4" data-aos="fade-left" data-aos-delay="600">
+            <a href="#" class="btn btn-primary">{% trans "تواصل معنا" %}</a>
+            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="btn btn-outline glightbox">
+              <i class="bi bi-play-circle me-2"></i> {% trans "شاهد قصتنا" %}
+            </a>
+          </div>
+
+          <div class="emergency-contact mt-4" data-aos="fade-left" data-aos-delay="700">
+            <div class="emergency-icon">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <div class="emergency-info">
+              <small>{% trans "خط الطوارئ" %}</small>
+              <strong>+20 111 234 5678</strong>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Hero Video -->
+      <div class="col-lg-6">
+        <div class="hero-visual" data-aos="fade-right" data-aos-delay="400">
+          <div class="main-video position-relative rounded-4 overflow-hidden shadow">
+            <video autoplay muted loop playsinline class="w-100 rounded-4">
+              <source src="{% static 'assets/videos/tso.mp4' %}" type="video/mp4">
+              {% trans "المتصفح الخاص بك لا يدعم عرض الفيديو." %}
+            </video>
+            <div class="floating-card appointment-card d-flex justify-content-start">
+              <div class="card-icon">
+                <i class="bi bi-geo-alt"></i>
+              </div>
+              <div class="card-content">
+                <h6>{% trans "موقعنا" %}</h6>
+                <p>{% trans "القاهرة - مصر" %}</p>
+              </div>
+            </div>
+          </div>
+          <div class="background-elements">
+            <div class="element element-1"></div>
+            <div class="element element-2"></div>
+            <div class="element element-3"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+<!-- /Hero Section -->
+<!-- Home About Section -->
+<section id="home-about" class="home-about section">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row align-items-center">
+
+      <!-- Text -->
+      <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-left" data-aos-delay="200">
+        <div class="about-content text-end">
+
+          <h2 class="section-heading">{% trans "فريقنا المساحي المتخصص في خدمتك" %}</h2>
+
+          <p class="lead-text">
+            {% trans "مساحونا جاهزون لخدمة المشاريع في وقت قصير. يدركون أهمية الالتزام بالمواعيد النهائية، وغالبًا ما يعملون خارج ساعات العمل الرسمية عند طلب العميل ذلك كوسيلة لتلبية متطلبات الوقت الضرورية." %}
+          </p>
+
+          <p>
+            {% trans "هدف شركتنا هو تحقيق رضا العملاء التام من خلال الجودة والكفاءة والتواصل الفعال. ولتحقيق ذلك، يتمتع فريقنا بروح عالية ويشارك في جميع جوانب الدور الموكل إليه." %}
+          </p>
+
+          <p>
+            {% trans "تمتلك شركة توتال سرفيينج مجموعة متنوعة من معدات المسح عالية الدقة، والتي تناسب العلامات التجارية العالمية، ونحرص على معايرة معداتنا دوريًا لضمان سلامة ودقة الأعمال." %}
+          </p>
+
+          <div class="stats-grid text-center text-lg-end mt-4">
+            <div class="stat-item">
+              <div class="stat-number purecounter" data-purecounter-end="500"></div>
+              <div class="stat-label">{% trans "مشروع تم إنجازه" %}</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number purecounter" data-purecounter-end="17"></div>
+              <div class="stat-label">{% trans "عامًا من الخبرة" %}</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number purecounter" data-purecounter-end="20"></div>
+              <div class="stat-label">{% trans "مهندسًا ومساحًا محترفًا" %}</div>
+            </div>
+          </div>
+
+          <div class="cta-section mt-4">
+            <a href="#" class="btn-primary">{% trans "اعرف المزيد عنا" %}</a>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Image -->
+      <div class="col-lg-6" data-aos="fade-right" data-aos-delay="300">
+        <div class="about-visual position-relative">
+          <div class="main-image rounded-4 overflow-hidden shadow">
+            <img src="{% static 'assets/img/total3.jpg' %}" alt="{% trans 'فريق المساحين في توتال سرفيينج' %}" class="img-fluid">
+          </div>
+          <div class="floating-card">
+            <div class="card-content">
+              <div class="icon"><i class="bi bi-geo-alt"></i></div>
+              <div class="card-text">
+                <h4>{% trans "تغطية في جميع أنحاء مصر" %}</h4>
+                <p>{% trans "جاهزون للوصول إلى موقعك بسرعة وكفاءة" %}</p>
+              </div>
+            </div>
+          </div>
+          <div class="experience-badge">
+            <div class="badge-content">
+              <span class="years">17+</span>
+              <span class="text">{% trans "سنوات من الدقة والتميز" %}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- /Home About Section -->
+
+
+<!-- Featured Apps Section -->
+<section id="featured-apps" class="featured-departments section" dir="rtl">
+
+  <div class="container section-title" data-aos="fade-up">
+    <h2>{% trans "تطبيقاتنا الإبداعية" %}</h2>
+    <p>{% trans "مجموعة من التطبيقات المبتكرة التي تقدم حلولًا هندسية وخدمية ذكية لعملائنا" %}</p>
+  </div>
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row g-5">
+
+      <!-- App 1 -->
+      <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+        <div class="specialty-card text-center">
+          <div class="specialty-icon mb-3">
+            <i class="fa-solid fa-store fa-3x text-primary"></i>
+          </div>
+          <h3>{% trans "تطبيق ماركت بلس" %}</h3>
+          <p>{% trans "منصة ذكية للبيع والشراء تتيح للمستخدمين إدارة منتجاتهم وخدماتهم بسهولة وسرعة." %}</p>
+          <a href="#" class="specialty-link">{% trans "استكشف التطبيق" %} <i class="fa-solid fa-arrow-left"></i></a>
+        </div>
+      </div>
+
+      <!-- App 2 -->
+      <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
+        <div class="specialty-card text-center">
+          <div class="specialty-icon mb-3">
+            <i class="fa-solid fa-cart-shopping fa-3x text-success"></i>
+          </div>
+          <h3>{% trans "تطبيق إي شوب برو" %}</h3>
+          <p>{% trans "منصة تجارة إلكترونية متكاملة تتيح التسوق الإلكتروني بطريقة سهلة وآمنة." %}</p>
+          <a href="#" class="specialty-link">{% trans "استكشف التطبيق" %} <i class="fa-solid fa-arrow-left"></i></a>
+        </div>
+      </div>
+
+      <!-- App 3 -->
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="department-highlight text-center">
+          <div class="highlight-icon mb-3">
+            <i class="fa-solid fa-user-tie fa-3x text-warning"></i>
+          </div>
+          <h4>{% trans "تطبيق إنجنير نت" %}</h4>
+          <p>{% trans "شبكة مهنية مخصصة للمهندسين للتواصل وتبادل المعرفة والخبرات." %}</p>
+          <a href="#" class="highlight-cta">{% trans "تعرف أكثر" %}</a>
+        </div>
+      </div>
+
+      <!-- App 4 -->
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="department-highlight text-center">
+          <div class="highlight-icon mb-3">
+            <i class="fa-solid fa-graduation-cap fa-3x text-danger"></i>
+          </div>
+          <h4>{% trans "تطبيق أكاديمي بلس" %}</h4>
+          <p>{% trans "منصة تعليمية تقدم دورات تدريبية هندسية بإشراف خبراء معتمدين." %}</p>
+          <a href="#" class="highlight-cta">{% trans "تعرف أكثر" %}</a>
+        </div>
+      </div>
+
+      <!-- App 5 -->
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="department-highlight text-center">
+          <div class="highlight-icon mb-3">
+            <i class="fa-solid fa-gears fa-3x text-info"></i>
+          </div>
+          <h4>{% trans "تطبيق بروجيكت مانجر" %}</h4>
+          <p>{% trans "تطبيق متخصص لإدارة المشاريع والمسح الهندسي بدقة وكفاءة عالية." %}</p>
+          <a href="#" class="highlight-cta">{% trans "تعرف أكثر" %}</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+<!-- /Featured Apps Section -->
+<!-- Featured Services Section -->
+<section id="featured-services" class="featured-services section" dir="rtl">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>خدماتنا المميزة</h2>
+    <p>نقدم مجموعة من الخدمات الهندسية المتكاملة بدقة واحترافية لضمان نجاح مشاريعكم.</p>
+  </div>
+  <!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row g-0">
+
+      <!-- Main Service -->
+      <div class="col-lg-8" data-aos="fade-right" data-aos-delay="200">
+        <div class="featured-service-main text-end">
+          <div class="service-image-wrapper">
+            <img src="{% static 'assets/img/founder.jpg' %}" alt="التسليم في الموعد" class="img-fluid rounded-4 shadow">
+            <div class="service-overlay">
+              <div class="service-badge">
+                <i class="bi bi-calendar-check"></i>
+                <span>الالتزام بالمواعيد</span>
+              </div>
+            </div>
+          </div>
+          <div class="service-details">
+            <h2>التسليم في الموعد</h2>
+            <p>
+              لا وقت للأخطاء، نحن ندرك الدور المهم للوقت في مشروع عميلنا، 
+              وبالتالي فإن العمل من المرة الأولى هو هدفنا، 
+              ودائمًا نقوم بتسليم العمل في الوقت المحدد.
+            </p>
+            <a href="#" class="main-cta">استكشف خدماتنا</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar Services -->
+      <div class="col-lg-4" data-aos="fade-left" data-aos-delay="300">
+        <div class="services-sidebar">
+
+          <!-- Service 1 -->
+          <div class="service-item" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-icon-wrapper">
+              <img src="{% static 'assets/img/total1.jpg' %}" alt="أحدث الأجهزة المساحية" class="img-fluid rounded-3 shadow">
+            </div>
+            <div class="service-info">
+              <h4>أحدث الأجهزة المساحية</h4>
+              <p>
+                إن سياستنا المتمثلة في استخدام أحدث أجهزة المسح وبرامج معالجة البيانات ليست اختيارًا، 
+                بل التزامًا بتقديم أدق النتائج بأفضل التقنيات لتوفير الوقت والمال لعملائنا.
+              </p>
+              <a href="#" class="service-link">تعرف أكثر</a>
+            </div>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-item" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-icon-wrapper">
+              <img src="{% static 'assets/img/total3.jpg' %}" alt="محترفون" class="img-fluid rounded-3 shadow">
+            </div>
+            <div class="service-info">
+              <h4>محترفون</h4>
+              <p>
+                فريقنا المتخصص من المحترفين في مجال مسح الأراضي ورسم الخرائط 
+                يجعلنا فخورين للغاية ويمنحنا الثقة لتقديم أعلى مستويات الجودة.
+              </p>
+              <a href="#" class="service-link">تعرف أكثر</a>
+            </div>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-item" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-icon-wrapper">
+              <img src="{% static 'assets/img/totalscaled.jpg' %}" alt="دقة لا تُقارن" class="img-fluid rounded-3 shadow">
+            </div>
+            <div class="service-info">
+              <h4>دقة لا تُقارن</h4>
+              <p>
+                لا شك أن هندسة المساحة هي الأساس لأي عمل هندسي، 
+                لذلك فإن الدقة في أعمالنا ليست خيارًا بل التزامًا لتحقيق نجاح كل مشروع.
+              </p>
+              <a href="#" class="service-link">تعرف أكثر</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- /Featured Services Section -->
+
+<!-- Call To Action Section -->
+<section id="call-to-action" class="call-to-action section light-background" dir="rtl">
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="hero-content">
+      <div class="row align-items-center">
+
+        <!-- Text Content -->
+        <div class="col-lg-6">
+          <div class="content-wrapper text-end" data-aos="fade-up" data-aos-delay="200">
+            <h1>رؤية مؤسسنا</h1>
+            <h4 class="mb-3">المؤسس: المهندس المدني / عمرو علي</h4>
+            <p>
+              على الرغم من أننا لسنا أكبر شركة في المنطقة، إلا أنه حتى الشركات الكبيرة لا تتخصص في كل جانب من جوانب المجال الواسع للهندسة المدنية.
+              لدينا المرونة اللازمة للدخول في شراكة مع الشركات المتخصصة حسب الحاجة، وقد فعلنا ذلك في العديد من المشاريع السابقة.
+              نعتقد أن مشاركتنا في هذه الشراكات تؤدي إلى مشروع أكثر بساطة مع التركيز بشكل أفضل على التفاصيل.
+            </p>
+
+            <div class="cta-wrapper mt-4">
+              <a href="about.html" class="primary-cta">
+                <span>تعرف على المزيد عنا</span>
+                <i class="bi bi-arrow-left"></i>
+              </a>
+              <a href="services.html" class="secondary-cta">
+                <span>اكتشف خدماتنا</span>
+                <i class="bi bi-arrow-left"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Founder Image -->
+        <div class="col-lg-6">
+          <div class="image-container text-center" data-aos="fade-left" data-aos-delay="300">
+            <img src="{% static 'assets/img/founder.jpg' %}" alt="المؤسس المهندس عمرو علي" class="img-fluid rounded-4 shadow">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="features-section mt-5">
+
+      <div class="row g-4">
+
+        <div class="col-lg-4">
+          <div class="feature-block text-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="feature-icon mb-3">
+              <img src="{% static 'assets/img/total1.jpg' %}" alt="أحدث التقنيات" class="img-fluid rounded-circle shadow" style="width:90px; height:90px; object-fit:cover;">
+            </div>
+            <h3>أحدث التقنيات</h3>
+            <p>نستخدم أحدث أجهزة القياس والمسح الهندسي لضمان دقة وجودة عالية في جميع مشاريعنا.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="feature-block text-center" data-aos="fade-up" data-aos-delay="300">
+            <div class="feature-icon mb-3">
+              <img src="{% static 'assets/img/total3.jpg' %}" alt="جاهزية مستمرة" class="img-fluid rounded-circle shadow" style="width:90px; height:90px; object-fit:cover;">
+            </div>
+            <h3>جاهزية مستمرة</h3>
+            <p>فريقنا جاهز دائمًا لتقديم الخدمات في الوقت المحدد، وندرك أهمية الالتزام بالمواعيد النهائية.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="feature-block text-center" data-aos="fade-up" data-aos-delay="400">
+            <div class="feature-icon mb-3">
+              <img src="{% static 'assets/img/totalscaled.jpg' %}" alt="فريق محترف" class="img-fluid rounded-circle shadow" style="width:90px; height:90px; object-fit:cover;">
+            </div>
+            <h3>فريق محترف</h3>
+            <p>يضم فريقنا نخبة من المهندسين والفنيين المحترفين المتخصصين في مجالات المساحة والبناء.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Contact Block -->
+    <div class="contact-block mt-5">
+      <div class="row align-items-center">
+
+        <div class="col-lg-8 text-end">
+          <div class="contact-content" data-aos="fade-up" data-aos-delay="200">
+            <h2>هل تحتاج إلى استشارة هندسية سريعة؟</h2>
+            <p>فريقنا متاح على مدار الساعة لتقديم الدعم الفني والاستشارات لأي مشروع هندسي.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 text-center text-lg-start">
+          <div class="contact-actions" data-aos="fade-up" data-aos-delay="300">
+            <a href="tel:+966555555555" class="emergency-call">
+              <i class="bi bi-telephone"></i>
+              <span>+966 55 555 5555</span>
+            </a>
+            <a href="contact.html" class="contact-link">تواصل معنا</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</section>
+<!-- /Call To Action Section -->
+</main>
+
+
+
+{% endblock %}

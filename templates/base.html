@@ -1,0 +1,67 @@
+{% load static i18n %}
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>{% block title %}{% trans "الصفحة الرئيسية - TSO" %}{% endblock %}</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="{% static 'assets/img/tso-logo.png' %}" rel="icon">
+  <link href="{% static 'assets/img/tso-logo.png' %}" rel="apple-touch-icon">
+
+  <!-- Arabic Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+  <!-- Bootstrap RTL -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/fontawesome-free/css/all.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="{% static 'assets/css/main.css' %}" rel="stylesheet">
+  
+  <style>
+    body {
+      font-family: "Cairo", sans-serif !important;
+      direction: rtl;
+      text-align: right;
+    }
+  </style>
+
+  {% block css %}{% endblock %}
+</head>
+<body class="index-page">
+    {% include 'partials/_navbar.html' %}
+  {% block content %}
+  {% endblock %}
+      {% include 'partials/_footer.html' %}
+
+   <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+      <!-- Vendor JS Files -->
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+
+  <!-- Main JS File -->
+  <script src="{% static 'assets/js/main.js' %}"></script>
+  
+  {% block extra_js %}
+  {% endblock %}
+</body>
