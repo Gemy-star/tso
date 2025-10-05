@@ -1,0 +1,562 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-05 11:58+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: English <en@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: .\templates\base.html:8
+msgid "الصفحة الرئيسية - TSO"
+msgstr "Home Page - TSO"
+
+#: .\templates\pages\home.html:19
+msgid "معتمدون"
+msgstr "Certified"
+
+#: .\templates\pages\home.html:23
+msgid "خدمة طوارئ 24/7"
+msgstr "24/7 Emergency Service"
+
+#: .\templates\pages\home.html:27
+msgid "تقييم 4.9/5"
+msgstr "4.9/5 Rating"
+
+#: .\templates\pages\home.html:32
+msgid "مرحبًا بكم مع مكتب"
+msgstr "Welcome to the office of"
+
+#: .\templates\pages\home.html:32
+msgid "توتال سرفيينج"
+msgstr "Total Surveying"
+
+#: .\templates\pages\home.html:36
+msgid ""
+"شكرًا لك على زيارتك لنا، لقد بدأنا في القاهرة عام 2008، حيث نقوم بجميع أنواع "
+"أعمال تطوير الأراضي بدءًا من المسوحات الطبوغرافية وقياس الموقع وحتى التقسيمات "
+"الفرعية واسعة النطاق وإدارة المشاريع. ويتراوح عملاؤنا من أصحاب العقارات "
+"الفردية إلى المطورين على نطاق واسع والدوائر الحكومية."
+msgstr ""
+"Thank you for visiting us. We started in Cairo in 2008, undertaking all "
+"types of land development work from topographic surveys and site measurement "
+"to large-scale subdivisions and project management. Our clients range from "
+"individual property owners to large-scale developers and government agencies."
+
+#: .\templates\pages\home.html:40
+msgid ""
+"في مكتب توتال سرفيينج، فريقنا مؤهل بشكل احترافي، وتغطي خبراتنا مجموعة واسعة "
+"من التخصصات المساحية. ويستخدم مهندسونا ذوو المهارات العالية أحدث التقنيات "
+"والأجهزة المساحية لضمان الحصول على أدق النتائج."
+msgstr ""
+"At Total Surveying, our team is professionally qualified, and our expertise "
+"covers a wide range of surveying specializations. Our highly skilled "
+"engineers use the latest technology and surveying equipment to ensure the "
+"most accurate results."
+
+#: .\templates\pages\home.html:44 .\templates\pages\home.html:431
+#: .\templates\partials\_footer.html:81
+msgid "تواصل معنا"
+msgstr "Contact Us"
+
+#: .\templates\pages\home.html:46
+msgid "شاهد قصتنا"
+msgstr "Watch Our Story"
+
+#: .\templates\pages\home.html:55
+msgid "خط الطوارئ"
+msgstr "Emergency Hotline"
+
+#: .\templates\pages\home.html:69
+msgid "المتصفح الخاص بك لا يدعم عرض الفيديو."
+msgstr "Your browser does not support video playback."
+
+#: .\templates\pages\home.html:76
+msgid "موقعنا"
+msgstr "Our Location"
+
+#: .\templates\pages\home.html:77
+msgid "القاهرة - مصر"
+msgstr "Cairo - Egypt"
+
+#: .\templates\pages\home.html:103
+msgid "فريقنا المساحي المتخصص في خدمتك"
+msgstr "Our Specialized Surveying Team is at Your Service"
+
+#: .\templates\pages\home.html:106
+msgid ""
+"مساحونا جاهزون لخدمة المشاريع في وقت قصير. يدركون أهمية الالتزام بالمواعيد "
+"النهائية، وغالبًا ما يعملون خارج ساعات العمل الرسمية عند طلب العميل ذلك "
+"كوسيلة لتلبية متطلبات الوقت الضرورية."
+msgstr ""
+"Our surveyors are ready to serve projects on short notice. They understand "
+"the importance of meeting deadlines, and often work outside regular business "
+"hours upon client request to meet essential time requirements."
+
+#: .\templates\pages\home.html:110
+msgid ""
+"هدف شركتنا هو تحقيق رضا العملاء التام من خلال الجودة والكفاءة والتواصل "
+"الفعال. ولتحقيق ذلك، يتمتع فريقنا بروح عالية ويشارك في جميع جوانب الدور "
+"الموكل إليه."
+msgstr ""
+"Our company's goal is to achieve complete client satisfaction through quality,"
+" efficiency, and effective communication. To achieve this, our team has a "
+"high morale and participates in all aspects of the assigned role."
+
+#: .\templates\pages\home.html:114
+msgid ""
+"تمتلك شركة توتال سرفيينج مجموعة متنوعة من معدات المسح عالية الدقة، والتي "
+"تناسب العلامات التجارية العالمية، ونحرص على معايرة معداتنا دوريًا لضمان سلامة "
+"ودقة الأعمال."
+msgstr ""
+"Total Surveying owns a variety of high-precision surveying equipment that "
+"suits international brands, and we ensure our equipment is calibrated "
+"periodically to guarantee the safety and accuracy of our work."
+
+#: .\templates\pages\home.html:120
+msgid "مشروع تم إنجازه"
+msgstr "Project Completed"
+
+#: .\templates\pages\home.html:124
+msgid "عامًا من الخبرة"
+msgstr "Years of Experience"
+
+#: .\templates\pages\home.html:128
+msgid "مهندسًا ومساحًا محترفًا"
+msgstr "Professional Engineer and Surveyor"
+
+#: .\templates\pages\home.html:133
+msgid "اعرف المزيد عنا"
+msgstr "Learn More About Us"
+
+#: .\templates\pages\home.html:143
+msgid "فريق المساحين في توتال سرفيينج"
+msgstr "The Surveyors Team at Total Surveying"
+
+#: .\templates\pages\home.html:149
+msgid "تغطية في جميع أنحاء مصر"
+msgstr "Coverage Across Egypt"
+
+#: .\templates\pages\home.html:150
+msgid "جاهزون للوصول إلى موقعك بسرعة وكفاءة"
+msgstr "Ready to reach your site quickly and efficiently"
+
+#: .\templates\pages\home.html:157
+msgid "سنوات من الدقة والتميز"
+msgstr "Years of Accuracy and Excellence"
+
+#: .\templates\pages\home.html:174
+msgid "تطبيقاتنا الذكية والمبتكرة"
+msgstr "Our Smart and Innovative Applications"
+
+#: .\templates\pages\home.html:177
+msgid ""
+"اكتشف باقة من التطبيقات الحديثة التي تمزج بين الإبداع والهندسة لتقديم حلول "
+"ذكية تلبي احتياجات عملائنا بكفاءة."
+msgstr ""
+"Discover a suite of modern applications that blend creativity and engineering "
+"to provide smart solutions that efficiently meet our clients' needs."
+
+#: .\templates\pages\home.html:191
+msgid "تطبيق ماركت بلس"
+msgstr "Market Plus Application"
+
+#: .\templates\pages\home.html:192
+msgid ""
+"منصة ذكية للبيع والشراء تتيح للمستخدمين إدارة منتجاتهم وخدماتهم بسهولة وسرعة."
+msgstr ""
+"A smart buying and selling platform that allows users to manage their "
+"products and services easily and quickly."
+
+#: .\templates\pages\home.html:193 .\templates\pages\home.html:205
+msgid "استكشف التطبيق"
+msgstr "Explore the Application"
+
+#: .\templates\pages\home.html:203
+msgid "تطبيق إي شوب برو"
+msgstr "E-Shop Pro Application"
+
+#: .\templates\pages\home.html:204
+msgid "منصة تجارة إلكترونية متكاملة تتيح التسوق الإلكتروني بطريقة سهلة وآمنة."
+msgstr "An integrated e-commerce platform that allows easy and secure online shopping."
+
+#: .\templates\pages\home.html:215
+msgid "تطبيق إنجنير نت"
+msgstr "Engineer Net Application"
+
+#: .\templates\pages\home.html:216
+msgid "شبكة مهنية مخصصة للمهندسين للتواصل وتبادل المعرفة والخبرات."
+msgstr "A professional network dedicated to engineers for communication and knowledge sharing."
+
+#: .\templates\pages\home.html:217 .\templates\pages\home.html:229
+#: .\templates\pages\home.html:241 .\templates\pages\home.html:299
+#: .\templates\pages\home.html:311 .\templates\pages\home.html:323
+msgid "تعرف أكثر"
+msgstr "Find Out More"
+
+#: .\templates\pages\home.html:227
+msgid "تطبيق أكاديمي بلس"
+msgstr "Academy Plus Application"
+
+#: .\templates\pages\home.html:228
+msgid "منصة تعليمية تقدم دورات تدريبية هندسية بإشراف خبراء معتمدين."
+msgstr "An educational platform offering engineering training courses supervised by certified experts."
+
+#: .\templates\pages\home.html:239
+msgid "تطبيق بروجيكت مانجر"
+msgstr "Project Manager Application"
+
+#: .\templates\pages\home.html:240
+msgid "تطبيق متخصص لإدارة المشاريع والمسح الهندسي بدقة وكفاءة عالية."
+msgstr "A specialized application for managing projects and engineering surveying with high accuracy and efficiency."
+
+#: .\templates\pages\home.html:256
+msgid "خدماتنا المميزة"
+msgstr "Our Distinctive Services"
+
+#: .\templates\pages\home.html:257
+msgid ""
+"نقدم مجموعة من الخدمات الهندسية المتكاملة بدقة واحترافية لضمان نجاح مشاريعكم."
+msgstr ""
+"We offer a set of integrated engineering services with precision and "
+"professionalism to ensure the success of your projects."
+
+#: .\templates\pages\home.html:269 .\templates\pages\home.html:278
+msgid "التسليم في الموعد"
+msgstr "On-Time Delivery"
+
+#: .\templates\pages\home.html:273
+msgid "الالتزام بالمواعيد"
+msgstr "Commitment to Deadlines"
+
+#: .\templates\pages\home.html:280
+msgid ""
+"لا وقت للأخطاء، نحن ندرك الدور المهم للوقت في مشروع عميلنا، وبالتالي فإن "
+"العمل من المرة الأولى هو هدفنا، ودائمًا نقوم بتسليم العمل في الوقت المحدد."
+msgstr ""
+"No time for errors. We understand the critical role of time in our client's "
+"project, therefore working right the first time is our goal, and we always "
+"deliver work on time."
+
+#: .\templates\pages\home.html:282
+msgid "استكشف خدماتنا"
+msgstr "Explore Our Services"
+
+#: .\templates\pages\home.html:294 .\templates\pages\home.html:297
+msgid "أحدث الأجهزة المساحية"
+msgstr "Latest Surveying Equipment"
+
+#: .\templates\pages\home.html:298
+msgid ""
+"إن سياستنا المتمثلة في استخدام أحدث أجهزة المسح وبرامج معالجة البيانات ليست "
+"اختيارًا، بل التزامًا بتقديم أدق النتائج بأفضل التقنيات لتوفير الوقت والمال "
+"لعملائنا."
+msgstr ""
+"Our policy of using the latest surveying instruments and data processing "
+"software is not a choice, but a commitment to delivering the most accurate "
+"results with the best technologies to save our clients time and money."
+
+#: .\templates\pages\home.html:306 .\templates\pages\home.html:309
+msgid "محترفون"
+msgstr "Professionals"
+
+#: .\templates\pages\home.html:310
+msgid ""
+"فريقنا المتخصص من المحترفين في مجال مسح الأراضي ورسم الخرائط يجعلنا فخورين "
+"للغاية ويمنحنا الثقة لتقديم أعلى مستويات الجودة."
+msgstr ""
+"Our dedicated team of professionals in land surveying and mapping makes us "
+"incredibly proud and gives us the confidence to deliver the highest quality "
+"standards."
+
+#: .\templates\pages\home.html:318 .\templates\pages\home.html:321
+msgid "دقة لا تُقارن"
+msgstr "Unmatched Accuracy"
+
+#: .\templates\pages\home.html:322
+msgid ""
+"لا شك أن هندسة المساحة هي الأساس لأي عمل هندسي، لذلك فإن الدقة في أعمالنا "
+"ليست خيارًا بل التزامًا لتحقيق نجاح كل مشروع."
+msgstr ""
+"There is no doubt that surveying engineering is the foundation for any "
+"engineering work, so accuracy in our work is not a choice, but a commitment "
+"to the success of every project."
+
+#: .\templates\pages\home.html:348
+msgid "رؤية مؤسسنا"
+msgstr "Our Founder's Vision"
+
+#: .\templates\pages\home.html:349
+msgid "المؤسس: المهندس المدني / عمرو علي"
+msgstr "Founder: Civil Engineer / Amr Ali"
+
+#: .\templates\pages\home.html:350
+msgid ""
+"على الرغم من أننا لسنا أكبر شركة في المنطقة، إلا أنه حتى الشركات الكبيرة لا "
+"تتخصص في كل جانب من جوانب المجال الواسع للهندسة المدنية. لدينا المرونة "
+"اللازمة للدخول في شراكة مع الشركات المتخصصة حسب الحاجة، وقد فعلنا ذلك في "
+"العديد من المشاريع السابقة. نعتقد أن مشاركتنا في هذه الشراكات تؤدي إلى مشروع "
+"أكثر بساطة مع التركيز بشكل أفضل على التفاصيل."
+msgstr ""
+"While we may not be the largest firm in the region, even large firms don't "
+"specialize in every aspect of the broad field of civil engineering. We have "
+"the flexibility to partner with specialist firms as needed, and we have done "
+"so on many past projects. We believe our involvement in these partnerships "
+"leads to a simpler project with a better focus on the details."
+
+#: .\templates\pages\home.html:354
+msgid "تعرف على المزيد عنا"
+msgstr "Learn More About Us"
+
+#: .\templates\pages\home.html:358
+msgid "اكتشف خدماتنا"
+msgstr "Discover Our Services"
+
+#: .\templates\pages\home.html:368
+msgid "المؤسس المهندس عمرو علي"
+msgstr "Founder Engineer Amr Ali"
+
+#: .\templates\pages\home.html:383 .\templates\pages\home.html:385
+msgid "أحدث التقنيات"
+msgstr "Latest Technology"
+
+#: .\templates\pages\home.html:386
+msgid ""
+"نستخدم أحدث أجهزة القياس والمسح الهندسي لضمان دقة وجودة عالية في جميع "
+"مشاريعنا."
+msgstr ""
+"We use the latest measuring and engineering surveying devices to ensure high "
+"accuracy and quality in all our projects."
+
+#: .\templates\pages\home.html:393 .\templates\pages\home.html:395
+msgid "جاهزية مستمرة"
+msgstr "Continuous Readiness"
+
+#: .\templates\pages\home.html:396
+msgid ""
+"فريقنا جاهز دائمًا لتقديم الخدمات في الوقت المحدد، وندرك أهمية الالتزام "
+"بالمواعيد النهائية."
+msgstr ""
+"Our team is always ready to deliver services on time, and we understand the "
+"importance of meeting deadlines."
+
+#: .\templates\pages\home.html:403 .\templates\pages\home.html:405
+msgid "فريق محترف"
+msgstr "Professional Team"
+
+#: .\templates\pages\home.html:406
+msgid ""
+"يضم فريقنا نخبة من المهندسين والفنيين المحترفين المتخصصين في مجالات المساحة "
+"والبناء."
+msgstr ""
+"Our team includes an elite group of professional engineers and technicians "
+"specialized in the fields of surveying and construction."
+
+#: .\templates\pages\home.html:420
+msgid "هل تحتاج إلى استشارة هندسية سريعة؟"
+msgstr "Do you need a quick engineering consultation?"
+
+#: .\templates\pages\home.html:421
+msgid ""
+"فريقنا متاح على مدار الساعة لتقديم الدعم الفني والاستشارات لأي مشروع هندسي."
+msgstr ""
+"Our team is available around the clock to provide technical support and "
+"consultations for any engineering project."
+
+#: .\templates\partials\_footer.html:13 .\templates\partials\_navbar.html:28
+msgid "شعار TSO"
+msgstr "TSO Logo"
+
+#: .\templates\partials\_footer.html:16
+msgid ""
+"نبتكر تجارب رقمية متميزة من خلال التصميم المدروس والحلول الإبداعية التي تعزز "
+"حضور علامتك التجارية."
+msgstr ""
+"We create exceptional digital experiences through thoughtful design and "
+"creative solutions that enhance your brand's presence."
+
+#: .\templates\partials\_footer.html:22
+msgid "123 شارع الإبداع، حي التصميم، التجمع الخامس 10012"
+msgstr "123 Creativity Street, Design District, Fifth Settlement 10012"
+
+#: .\templates\partials\_footer.html:26
+msgid "+201127078236"
+msgstr "+201127078236"
+
+#: .\templates\partials\_footer.html:30 .\templates\partials\_navbar.html:9
+msgid "info@total-surveying.com"
+msgstr "info@total-surveying.com"
+
+#: .\templates\partials\_footer.html:42
+msgid "من نحن"
+msgstr "About Us"
+
+#: .\templates\partials\_footer.html:44
+msgid "قصتنا"
+msgstr "Our Story"
+
+#: .\templates\partials\_footer.html:45
+msgid "منهج التصميم"
+msgstr "Design Methodology"
+
+#: .\templates\partials\_footer.html:46 .\templates\partials\_navbar.html:35
+msgid "معرض الأعمال"
+msgstr "Portfolio"
+
+#: .\templates\partials\_footer.html:47
+msgid "دراسات الحالة"
+msgstr "Case Studies"
+
+#: .\templates\partials\_footer.html:48
+msgid "الجوائز"
+msgstr "Awards"
+
+#: .\templates\partials\_footer.html:55 .\templates\partials\_navbar.html:34
+msgid "الخدمات"
+msgstr "Services"
+
+#: .\templates\partials\_footer.html:57
+msgid "الهوية البصرية"
+msgstr "Visual Identity"
+
+#: .\templates\partials\_footer.html:58
+msgid "تصميم المواقع"
+msgstr "Website Design"
+
+#: .\templates\partials\_footer.html:59
+msgid "تطبيقات الجوال"
+msgstr "Mobile Applications"
+
+#: .\templates\partials\_footer.html:60
+msgid "الاستراتيجية الرقمية"
+msgstr "Digital Strategy"
+
+#: .\templates\partials\_footer.html:61
+msgid "الاستشارات"
+msgstr "Consulting"
+
+#: .\templates\partials\_footer.html:68
+msgid "الموارد"
+msgstr "Resources"
+
+#: .\templates\partials\_footer.html:70
+msgid "مدونة التصميم"
+msgstr "Design Blog"
+
+#: .\templates\partials\_footer.html:71
+msgid "دليل الأنماط"
+msgstr "Style Guide"
+
+#: .\templates\partials\_footer.html:72
+msgid "الموارد المجانية"
+msgstr "Free Resources"
+
+#: .\templates\partials\_footer.html:73
+msgid "الدروس التعليمية"
+msgstr "Tutorials"
+
+#: .\templates\partials\_footer.html:74
+msgid "الإلهام"
+msgstr "Inspiration"
+
+#: .\templates\partials\_footer.html:83
+msgid "ابدأ مشروعك"
+msgstr "Start Your Project"
+
+#: .\templates\partials\_footer.html:84
+msgid "احجز مكالمة"
+msgstr "Book a Call"
+
+#: .\templates\partials\_footer.html:85
+msgid "اشترك في النشرة"
+msgstr "Subscribe to Newsletter"
+
+#: .\templates\partials\_footer.html:86
+msgid "تابع التحديثات"
+msgstr "Follow Updates"
+
+#: .\templates\partials\_footer.html:87
+msgid "الشراكات"
+msgstr "Partnerships"
+
+#: .\templates\partials\_footer.html:109
+msgid "TSO"
+msgstr "TSO"
+
+#: .\templates\partials\_footer.html:110
+msgid "جميع الحقوق محفوظة."
+msgstr "All Rights Reserved."
+
+#: .\templates\partials\_footer.html:117
+msgid "سياسة الخصوصية"
+msgstr "Privacy Policy"
+
+#: .\templates\partials\_footer.html:118
+msgid "شروط الاستخدام"
+msgstr "Terms of Use"
+
+#: .\templates\partials\_footer.html:119
+msgid "سياسة الكوكيز"
+msgstr "Cookie Policy"
+
+#: .\templates\partials\_navbar.html:12
+msgid "201127078236"
+msgstr "201127078236"
+
+#: .\templates\partials\_navbar.html:16
+msgid "تويتر"
+msgstr "Twitter"
+
+#: .\templates\partials\_navbar.html:17
+msgid "فيسبوك"
+msgstr "Facebook"
+
+#: .\templates\partials\_navbar.html:18
+msgid "إنستغرام"
+msgstr "Instagram"
+
+#: .\templates\partials\_navbar.html:19
+msgid "لينكدإن"
+msgstr "LinkedIn"
+
+#: .\templates\partials\_navbar.html:33
+msgid "الرئيسية"
+msgstr "Home"
+
+#: .\templates\partials\_navbar.html:36
+msgid "الدورات التدريبية"
+msgstr "Training Courses"
+
+#: .\templates\partials\_navbar.html:37
+msgid "المدونات"
+msgstr "Blogs"
+
+#: .\templates\partials\_navbar.html:38
+msgid "TSO فيديوز"
+msgstr "TSO Videos"
+
+#: .\templates\partials\_navbar.html:39
+msgid "قيمنا"
+msgstr "Our Values"
+
+#: .\templates\partials\_navbar.html:40
+msgid "اتصل بنا"
+msgstr "Contact Us"
+
+#: .\tso\settings\common.py:117
+msgid "English"
+msgstr "English"
+
+#: .\tso\settings\common.py:118
+msgid "Arabic"
+msgstr "Arabic"

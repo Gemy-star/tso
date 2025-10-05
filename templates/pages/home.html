@@ -167,7 +167,7 @@
 
 
 <!-- Featured Apps Section -->
-<section id="featured-apps" class="featured-departments section" dir="rtl">
+<section id="featured-apps" class="featured-departments section" dir="{% if LANGUAGE_CODE == 'ar' %}rtl{% else %}ltr{% endif %}">
 
   <div class="container section-title text-center" data-aos="fade-up">
     <h2 class="fw-bold display-5 mb-3">
@@ -249,12 +249,12 @@
 <!-- /Featured Apps Section -->
 
 <!-- Featured Services Section -->
-<section id="featured-services" class="featured-services section" dir="rtl">
+<section id="featured-services" class="featured-services section" dir="{% if LANGUAGE_CODE == 'ar' %}rtl{% else %}ltr{% endif %}">
 
   <!-- Section Title -->
   <div class="container section-title" data-aos="fade-up">
-    <h2>خدماتنا المميزة</h2>
-    <p>نقدم مجموعة من الخدمات الهندسية المتكاملة بدقة واحترافية لضمان نجاح مشاريعكم.</p>
+    <h2>{% trans "خدماتنا المميزة" %}</h2>
+    <p>{% trans "نقدم مجموعة من الخدمات الهندسية المتكاملة بدقة واحترافية لضمان نجاح مشاريعكم." %}</p>
   </div>
   <!-- End Section Title -->
 
@@ -266,22 +266,20 @@
       <div class="col-lg-8" data-aos="fade-right" data-aos-delay="200">
         <div class="featured-service-main text-end">
           <div class="service-image-wrapper">
-            <img src="{% static 'assets/img/founder.jpg' %}" alt="التسليم في الموعد" class="img-fluid rounded-4 shadow">
+            <img src="{% static 'assets/img/founder.jpg' %}" alt="{% trans 'التسليم في الموعد' %}" class="img-fluid rounded-4 shadow">
             <div class="service-overlay">
               <div class="service-badge">
                 <i class="bi bi-calendar-check"></i>
-                <span>الالتزام بالمواعيد</span>
+                <span>{% trans "الالتزام بالمواعيد" %}</span>
               </div>
             </div>
           </div>
           <div class="service-details">
-            <h2>التسليم في الموعد</h2>
+            <h2>{% trans "التسليم في الموعد" %}</h2>
             <p>
-              لا وقت للأخطاء، نحن ندرك الدور المهم للوقت في مشروع عميلنا، 
-              وبالتالي فإن العمل من المرة الأولى هو هدفنا، 
-              ودائمًا نقوم بتسليم العمل في الوقت المحدد.
+              {% trans "لا وقت للأخطاء، نحن ندرك الدور المهم للوقت في مشروع عميلنا، وبالتالي فإن العمل من المرة الأولى هو هدفنا، ودائمًا نقوم بتسليم العمل في الوقت المحدد." %}
             </p>
-            <a href="#" class="main-cta">استكشف خدماتنا</a>
+            <a href="#" class="main-cta">{% trans "استكشف خدماتنا" %}</a>
           </div>
         </div>
       </div>
@@ -293,45 +291,36 @@
           <!-- Service 1 -->
           <div class="service-item" data-aos="fade-up" data-aos-delay="400">
             <div class="service-icon-wrapper">
-              <img src="{% static 'assets/img/total1.jpg' %}" alt="أحدث الأجهزة المساحية" class="img-fluid rounded-3 shadow">
+              <img src="{% static 'assets/img/total1.jpg' %}" alt="{% trans 'أحدث الأجهزة المساحية' %}" class="img-fluid rounded-3 shadow">
             </div>
             <div class="service-info">
-              <h4>أحدث الأجهزة المساحية</h4>
-              <p>
-                إن سياستنا المتمثلة في استخدام أحدث أجهزة المسح وبرامج معالجة البيانات ليست اختيارًا، 
-                بل التزامًا بتقديم أدق النتائج بأفضل التقنيات لتوفير الوقت والمال لعملائنا.
-              </p>
-              <a href="#" class="service-link">تعرف أكثر</a>
+              <h4>{% trans "أحدث الأجهزة المساحية" %}</h4>
+              <p>{% trans "إن سياستنا المتمثلة في استخدام أحدث أجهزة المسح وبرامج معالجة البيانات ليست اختيارًا، بل التزامًا بتقديم أدق النتائج بأفضل التقنيات لتوفير الوقت والمال لعملائنا." %}</p>
+              <a href="#" class="service-link">{% trans "تعرف أكثر" %}</a>
             </div>
           </div>
 
           <!-- Service 2 -->
           <div class="service-item" data-aos="fade-up" data-aos-delay="500">
             <div class="service-icon-wrapper">
-              <img src="{% static 'assets/img/total3.jpg' %}" alt="محترفون" class="img-fluid rounded-3 shadow">
+              <img src="{% static 'assets/img/total3.jpg' %}" alt="{% trans 'محترفون' %}" class="img-fluid rounded-3 shadow">
             </div>
             <div class="service-info">
-              <h4>محترفون</h4>
-              <p>
-                فريقنا المتخصص من المحترفين في مجال مسح الأراضي ورسم الخرائط 
-                يجعلنا فخورين للغاية ويمنحنا الثقة لتقديم أعلى مستويات الجودة.
-              </p>
-              <a href="#" class="service-link">تعرف أكثر</a>
+              <h4>{% trans "محترفون" %}</h4>
+              <p>{% trans "فريقنا المتخصص من المحترفين في مجال مسح الأراضي ورسم الخرائط يجعلنا فخورين للغاية ويمنحنا الثقة لتقديم أعلى مستويات الجودة." %}</p>
+              <a href="#" class="service-link">{% trans "تعرف أكثر" %}</a>
             </div>
           </div>
 
           <!-- Service 3 -->
           <div class="service-item" data-aos="fade-up" data-aos-delay="600">
             <div class="service-icon-wrapper">
-              <img src="{% static 'assets/img/totalscaled.jpg' %}" alt="دقة لا تُقارن" class="img-fluid rounded-3 shadow">
+              <img src="{% static 'assets/img/totalscaled.jpg' %}" alt="{% trans 'دقة لا تُقارن' %}" class="img-fluid rounded-3 shadow">
             </div>
             <div class="service-info">
-              <h4>دقة لا تُقارن</h4>
-              <p>
-                لا شك أن هندسة المساحة هي الأساس لأي عمل هندسي، 
-                لذلك فإن الدقة في أعمالنا ليست خيارًا بل التزامًا لتحقيق نجاح كل مشروع.
-              </p>
-              <a href="#" class="service-link">تعرف أكثر</a>
+              <h4>{% trans "دقة لا تُقارن" %}</h4>
+              <p>{% trans "لا شك أن هندسة المساحة هي الأساس لأي عمل هندسي، لذلك فإن الدقة في أعمالنا ليست خيارًا بل التزامًا لتحقيق نجاح كل مشروع." %}</p>
+              <a href="#" class="service-link">{% trans "تعرف أكثر" %}</a>
             </div>
           </div>
 
@@ -346,7 +335,7 @@
 <!-- /Featured Services Section -->
 
 <!-- Call To Action Section -->
-<section id="call-to-action" class="call-to-action section light-background" dir="rtl">
+<section id="call-to-action" class="call-to-action section light-background" dir="{% if LANGUAGE_CODE == 'ar' %}rtl{% else %}ltr{% endif %}">
 
   <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -356,21 +345,17 @@
         <!-- Text Content -->
         <div class="col-lg-6">
           <div class="content-wrapper text-end" data-aos="fade-up" data-aos-delay="200">
-            <h1>رؤية مؤسسنا</h1>
-            <h4 class="mb-3">المؤسس: المهندس المدني / عمرو علي</h4>
-            <p>
-              على الرغم من أننا لسنا أكبر شركة في المنطقة، إلا أنه حتى الشركات الكبيرة لا تتخصص في كل جانب من جوانب المجال الواسع للهندسة المدنية.
-              لدينا المرونة اللازمة للدخول في شراكة مع الشركات المتخصصة حسب الحاجة، وقد فعلنا ذلك في العديد من المشاريع السابقة.
-              نعتقد أن مشاركتنا في هذه الشراكات تؤدي إلى مشروع أكثر بساطة مع التركيز بشكل أفضل على التفاصيل.
-            </p>
+            <h1>{% trans "رؤية مؤسسنا" %}</h1>
+            <h4 class="mb-3">{% trans "المؤسس: المهندس المدني / عمرو علي" %}</h4>
+            <p>{% trans "على الرغم من أننا لسنا أكبر شركة في المنطقة، إلا أنه حتى الشركات الكبيرة لا تتخصص في كل جانب من جوانب المجال الواسع للهندسة المدنية. لدينا المرونة اللازمة للدخول في شراكة مع الشركات المتخصصة حسب الحاجة، وقد فعلنا ذلك في العديد من المشاريع السابقة. نعتقد أن مشاركتنا في هذه الشراكات تؤدي إلى مشروع أكثر بساطة مع التركيز بشكل أفضل على التفاصيل." %}</p>
 
             <div class="cta-wrapper mt-4">
               <a href="#" class="primary-cta">
-                <span>تعرف على المزيد عنا</span>
+                <span>{% trans "تعرف على المزيد عنا" %}</span>
                 <i class="bi bi-arrow-left"></i>
               </a>
               <a href="#" class="secondary-cta">
-                <span>اكتشف خدماتنا</span>
+                <span>{% trans "اكتشف خدماتنا" %}</span>
                 <i class="bi bi-arrow-left"></i>
               </a>
             </div>
@@ -380,7 +365,7 @@
         <!-- Founder Image -->
         <div class="col-lg-6">
           <div class="image-container text-center" data-aos="fade-left" data-aos-delay="300">
-            <img src="{% static 'assets/img/founder.jpg' %}" alt="المؤسس المهندس عمرو علي" class="img-fluid rounded-4 shadow">
+            <img src="{% static 'assets/img/founder.jpg' %}" alt="{% trans 'المؤسس المهندس عمرو علي' %}" class="img-fluid rounded-4 shadow">
           </div>
         </div>
 
@@ -395,30 +380,30 @@
         <div class="col-lg-4">
           <div class="feature-block text-center" data-aos="fade-up" data-aos-delay="200">
             <div class="feature-icon mb-3">
-              <img src="{% static 'assets/img/total1.jpg' %}" alt="أحدث التقنيات" class="img-fluid rounded-circle shadow" style="width:90px; height:90px; object-fit:cover;">
+              <img src="{% static 'assets/img/total1.jpg' %}" alt="{% trans 'أحدث التقنيات' %}" class="img-fluid rounded-circle shadow" style="width:90px; height:90px; object-fit:cover;">
             </div>
-            <h3>أحدث التقنيات</h3>
-            <p>نستخدم أحدث أجهزة القياس والمسح الهندسي لضمان دقة وجودة عالية في جميع مشاريعنا.</p>
+            <h3>{% trans "أحدث التقنيات" %}</h3>
+            <p>{% trans "نستخدم أحدث أجهزة القياس والمسح الهندسي لضمان دقة وجودة عالية في جميع مشاريعنا." %}</p>
           </div>
         </div>
 
         <div class="col-lg-4">
           <div class="feature-block text-center" data-aos="fade-up" data-aos-delay="300">
             <div class="feature-icon mb-3">
-              <img src="{% static 'assets/img/total3.jpg' %}" alt="جاهزية مستمرة" class="img-fluid rounded-circle shadow" style="width:90px; height:90px; object-fit:cover;">
+              <img src="{% static 'assets/img/total3.jpg' %}" alt="{% trans 'جاهزية مستمرة' %}" class="img-fluid rounded-circle shadow" style="width:90px; height:90px; object-fit:cover;">
             </div>
-            <h3>جاهزية مستمرة</h3>
-            <p>فريقنا جاهز دائمًا لتقديم الخدمات في الوقت المحدد، وندرك أهمية الالتزام بالمواعيد النهائية.</p>
+            <h3>{% trans "جاهزية مستمرة" %}</h3>
+            <p>{% trans "فريقنا جاهز دائمًا لتقديم الخدمات في الوقت المحدد، وندرك أهمية الالتزام بالمواعيد النهائية." %}</p>
           </div>
         </div>
 
         <div class="col-lg-4">
           <div class="feature-block text-center" data-aos="fade-up" data-aos-delay="400">
             <div class="feature-icon mb-3">
-              <img src="{% static 'assets/img/totalscaled.jpg' %}" alt="فريق محترف" class="img-fluid rounded-circle shadow" style="width:90px; height:90px; object-fit:cover;">
+              <img src="{% static 'assets/img/totalscaled.jpg' %}" alt="{% trans 'فريق محترف' %}" class="img-fluid rounded-circle shadow" style="width:90px; height:90px; object-fit:cover;">
             </div>
-            <h3>فريق محترف</h3>
-            <p>يضم فريقنا نخبة من المهندسين والفنيين المحترفين المتخصصين في مجالات المساحة والبناء.</p>
+            <h3>{% trans "فريق محترف" %}</h3>
+            <p>{% trans "يضم فريقنا نخبة من المهندسين والفنيين المحترفين المتخصصين في مجالات المساحة والبناء." %}</p>
           </div>
         </div>
 
@@ -432,8 +417,8 @@
 
         <div class="col-lg-8 text-end">
           <div class="contact-content" data-aos="fade-up" data-aos-delay="200">
-            <h2>هل تحتاج إلى استشارة هندسية سريعة؟</h2>
-            <p>فريقنا متاح على مدار الساعة لتقديم الدعم الفني والاستشارات لأي مشروع هندسي.</p>
+            <h2>{% trans "هل تحتاج إلى استشارة هندسية سريعة؟" %}</h2>
+            <p>{% trans "فريقنا متاح على مدار الساعة لتقديم الدعم الفني والاستشارات لأي مشروع هندسي." %}</p>
           </div>
         </div>
 
@@ -443,7 +428,7 @@
               <i class="bi bi-telephone"></i>
               <span>+201127078236</span>
             </a>
-            <a href="#" class="contact-link">تواصل معنا</a>
+            <a href="#" class="contact-link">{% trans "تواصل معنا" %}</a>
           </div>
         </div>
 

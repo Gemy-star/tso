@@ -1,0 +1,556 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-05 11:58+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Arabic <ar@li.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+#: .\templates\base.html:8
+msgid "الصفحة الرئيسية - TSO"
+msgstr "الصفحة الرئيسية - TSO"
+
+#: .\templates\pages\home.html:19
+msgid "معتمدون"
+msgstr "معتمدون"
+
+#: .\templates\pages\home.html:23
+msgid "خدمة طوارئ 24/7"
+msgstr "خدمة طوارئ 24/7"
+
+#: .\templates\pages\home.html:27
+msgid "تقييم 4.9/5"
+msgstr "تقييم 4.9/5"
+
+#: .\templates\pages\home.html:32
+msgid "مرحبًا بكم مع مكتب"
+msgstr "مرحبًا بكم مع مكتب"
+
+#: .\templates\pages\home.html:32
+msgid "توتال سرفيينج"
+msgstr "توتال سرفيينج"
+
+#: .\templates\pages\home.html:36
+msgid ""
+"شكرًا لك على زيارتك لنا، لقد بدأنا في القاهرة عام 2008، حيث نقوم بجميع أنواع "
+"أعمال تطوير الأراضي بدءًا من المسوحات الطبوغرافية وقياس الموقع وحتى التقسيمات "
+"الفرعية واسعة النطاق وإدارة المشاريع. ويتراوح عملاؤنا من أصحاب العقارات "
+"الفردية إلى المطورين على نطاق واسع والدوائر الحكومية."
+msgstr ""
+"شكرًا لك على زيارتك لنا، لقد بدأنا في القاهرة عام 2008، حيث نقوم بجميع أنواع "
+"أعمال تطوير الأراضي بدءًا من المسوحات الطبوغرافية وقياس الموقع وحتى التقسيمات "
+"الفرعية واسعة النطاق وإدارة المشاريع. ويتراوح عملاؤنا من أصحاب العقارات "
+"الفردية إلى المطورين على نطاق واسع والدوائر الحكومية."
+
+#: .\templates\pages\home.html:40
+msgid ""
+"في مكتب توتال سرفيينج، فريقنا مؤهل بشكل احترافي، وتغطي خبراتنا مجموعة واسعة "
+"من التخصصات المساحية. ويستخدم مهندسونا ذوو المهارات العالية أحدث التقنيات "
+"والأجهزة المساحية لضمان الحصول على أدق النتائج."
+msgstr ""
+"في مكتب توتال سرفيينج، فريقنا مؤهل بشكل احترافي، وتغطي خبراتنا مجموعة واسعة "
+"من التخصصات المساحية. ويستخدم مهندسونا ذوو المهارات العالية أحدث التقنيات "
+"والأجهزة المساحية لضمان الحصول على أدق النتائج."
+
+#: .\templates\pages\home.html:44 .\templates\pages\home.html:431
+#: .\templates\partials\_footer.html:81
+msgid "تواصل معنا"
+msgstr "تواصل معنا"
+
+#: .\templates\pages\home.html:46
+msgid "شاهد قصتنا"
+msgstr "شاهد قصتنا"
+
+#: .\templates\pages\home.html:55
+msgid "خط الطوارئ"
+msgstr "خط الطوارئ"
+
+#: .\templates\pages\home.html:69
+msgid "المتصفح الخاص بك لا يدعم عرض الفيديو."
+msgstr "المتصفح الخاص بك لا يدعم عرض الفيديو."
+
+#: .\templates\pages\home.html:76
+msgid "موقعنا"
+msgstr "موقعنا"
+
+#: .\templates\pages\home.html:77
+msgid "القاهرة - مصر"
+msgstr "القاهرة - مصر"
+
+#: .\templates\pages\home.html:103
+msgid "فريقنا المساحي المتخصص في خدمتك"
+msgstr "فريقنا المساحي المتخصص في خدمتك"
+
+#: .\templates\pages\home.html:106
+msgid ""
+"مساحونا جاهزون لخدمة المشاريع في وقت قصير. يدركون أهمية الالتزام بالمواعيد "
+"النهائية، وغالبًا ما يعملون خارج ساعات العمل الرسمية عند طلب العميل ذلك "
+"كوسيلة لتلبية متطلبات الوقت الضرورية."
+msgstr ""
+"مساحونا جاهزون لخدمة المشاريع في وقت قصير. يدركون أهمية الالتزام بالمواعيد "
+"النهائية، وغالبًا ما يعملون خارج ساعات العمل الرسمية عند طلب العميل ذلك "
+"كوسيلة لتلبية متطلبات الوقت الضرورية."
+
+#: .\templates\pages\home.html:110
+msgid ""
+"هدف شركتنا هو تحقيق رضا العملاء التام من خلال الجودة والكفاءة والتواصل "
+"الفعال. ولتحقيق ذلك، يتمتع فريقنا بروح عالية ويشارك في جميع جوانب الدور "
+"الموكل إليه."
+msgstr ""
+"هدف شركتنا هو تحقيق رضا العملاء التام من خلال الجودة والكفاءة والتواصل "
+"الفعال. ولتحقيق ذلك، يتمتع فريقنا بروح عالية ويشارك في جميع جوانب الدور "
+"الموكل إليه."
+
+#: .\templates\pages\home.html:114
+msgid ""
+"تمتلك شركة توتال سرفيينج مجموعة متنوعة من معدات المسح عالية الدقة، والتي "
+"تناسب العلامات التجارية العالمية، ونحرص على معايرة معداتنا دوريًا لضمان سلامة "
+"ودقة الأعمال."
+msgstr ""
+"تمتلك شركة توتال سرفيينج مجموعة متنوعة من معدات المسح عالية الدقة، والتي "
+"تناسب العلامات التجارية العالمية، ونحرص على معايرة معداتنا دوريًا لضمان سلامة "
+"ودقة الأعمال."
+
+#: .\templates\pages\home.html:120
+msgid "مشروع تم إنجازه"
+msgstr "مشروع تم إنجازه"
+
+#: .\templates\pages\home.html:124
+msgid "عامًا من الخبرة"
+msgstr "عامًا من الخبرة"
+
+#: .\templates\pages\home.html:128
+msgid "مهندسًا ومساحًا محترفًا"
+msgstr "مهندسًا ومساحًا محترفًا"
+
+#: .\templates\pages\home.html:133
+msgid "اعرف المزيد عنا"
+msgstr "اعرف المزيد عنا"
+
+#: .\templates\pages\home.html:143
+msgid "فريق المساحين في توتال سرفيينج"
+msgstr "فريق المساحين في توتال سرفيينج"
+
+#: .\templates\pages\home.html:149
+msgid "تغطية في جميع أنحاء مصر"
+msgstr "تغطية في جميع أنحاء مصر"
+
+#: .\templates\pages\home.html:150
+msgid "جاهزون للوصول إلى موقعك بسرعة وكفاءة"
+msgstr "جاهزون للوصول إلى موقعك بسرعة وكفاءة"
+
+#: .\templates\pages\home.html:157
+msgid "سنوات من الدقة والتميز"
+msgstr "سنوات من الدقة والتميز"
+
+#: .\templates\pages\home.html:174
+msgid "تطبيقاتنا الذكية والمبتكرة"
+msgstr "تطبيقاتنا الذكية والمبتكرة"
+
+#: .\templates\pages\home.html:177
+msgid ""
+"اكتشف باقة من التطبيقات الحديثة التي تمزج بين الإبداع والهندسة لتقديم حلول "
+"ذكية تلبي احتياجات عملائنا بكفاءة."
+msgstr ""
+"اكتشف باقة من التطبيقات الحديثة التي تمزج بين الإبداع والهندسة لتقديم حلول "
+"ذكية تلبي احتياجات عملائنا بكفاءة."
+
+#: .\templates\pages\home.html:191
+msgid "تطبيق ماركت بلس"
+msgstr "تطبيق ماركت بلس"
+
+#: .\templates\pages\home.html:192
+msgid ""
+"منصة ذكية للبيع والشراء تتيح للمستخدمين إدارة منتجاتهم وخدماتهم بسهولة وسرعة."
+msgstr ""
+"منصة ذكية للبيع والشراء تتيح للمستخدمين إدارة منتجاتهم وخدماتهم بسهولة وسرعة."
+
+#: .\templates\pages\home.html:193 .\templates\pages\home.html:205
+msgid "استكشف التطبيق"
+msgstr "استكشف التطبيق"
+
+#: .\templates\pages\home.html:203
+msgid "تطبيق إي شوب برو"
+msgstr "تطبيق إي شوب برو"
+
+#: .\templates\pages\home.html:204
+msgid "منصة تجارة إلكترونية متكاملة تتيح التسوق الإلكتروني بطريقة سهلة وآمنة."
+msgstr "منصة تجارة إلكترونية متكاملة تتيح التسوق الإلكتروني بطريقة سهلة وآمنة."
+
+#: .\templates\pages\home.html:215
+msgid "تطبيق إنجنير نت"
+msgstr "تطبيق إنجنير نت"
+
+#: .\templates\pages\home.html:216
+msgid "شبكة مهنية مخصصة للمهندسين للتواصل وتبادل المعرفة والخبرات."
+msgstr "شبكة مهنية مخصصة للمهندسين للتواصل وتبادل المعرفة والخبرات."
+
+#: .\templates\pages\home.html:217 .\templates\pages\home.html:229
+#: .\templates\pages\home.html:241 .\templates\pages\home.html:299
+#: .\templates\pages\home.html:311 .\templates\pages\home.html:323
+msgid "تعرف أكثر"
+msgstr "تعرف أكثر"
+
+#: .\templates\pages\home.html:227
+msgid "تطبيق أكاديمي بلس"
+msgstr "تطبيق أكاديمي بلس"
+
+#: .\templates\pages\home.html:228
+msgid "منصة تعليمية تقدم دورات تدريبية هندسية بإشراف خبراء معتمدين."
+msgstr "منصة تعليمية تقدم دورات تدريبية هندسية بإشراف خبراء معتمدين."
+
+#: .\templates\pages\home.html:239
+msgid "تطبيق بروجيكت مانجر"
+msgstr "تطبيق بروجيكت مانجر"
+
+#: .\templates\pages\home.html:240
+msgid "تطبيق متخصص لإدارة المشاريع والمسح الهندسي بدقة وكفاءة عالية."
+msgstr "تطبيق متخصص لإدارة المشاريع والمسح الهندسي بدقة وكفاءة عالية."
+
+#: .\templates\pages\home.html:256
+msgid "خدماتنا المميزة"
+msgstr "خدماتنا المميزة"
+
+#: .\templates\pages\home.html:257
+msgid ""
+"نقدم مجموعة من الخدمات الهندسية المتكاملة بدقة واحترافية لضمان نجاح مشاريعكم."
+msgstr ""
+"نقدم مجموعة من الخدمات الهندسية المتكاملة بدقة واحترافية لضمان نجاح مشاريعكم."
+
+#: .\templates\pages\home.html:269 .\templates\pages\home.html:278
+msgid "التسليم في الموعد"
+msgstr "التسليم في الموعد"
+
+#: .\templates\pages\home.html:273
+msgid "الالتزام بالمواعيد"
+msgstr "الالتزام بالمواعيد"
+
+#: .\templates\pages\home.html:280
+msgid ""
+"لا وقت للأخطاء، نحن ندرك الدور المهم للوقت في مشروع عميلنا، وبالتالي فإن "
+"العمل من المرة الأولى هو هدفنا، ودائمًا نقوم بتسليم العمل في الوقت المحدد."
+msgstr ""
+"لا وقت للأخطاء، نحن ندرك الدور المهم للوقت في مشروع عميلنا، وبالتالي فإن "
+"العمل من المرة الأولى هو هدفنا، ودائمًا نقوم بتسليم العمل في الوقت المحدد."
+
+#: .\templates\pages\home.html:282
+msgid "استكشف خدماتنا"
+msgstr "استكشف خدماتنا"
+
+#: .\templates\pages\home.html:294 .\templates\pages\home.html:297
+msgid "أحدث الأجهزة المساحية"
+msgstr "أحدث الأجهزة المساحية"
+
+#: .\templates\pages\home.html:298
+msgid ""
+"إن سياستنا المتمثلة في استخدام أحدث أجهزة المسح وبرامج معالجة البيانات ليست "
+"اختيارًا، بل التزامًا بتقديم أدق النتائج بأفضل التقنيات لتوفير الوقت والمال "
+"لعملائنا."
+msgstr ""
+"إن سياستنا المتمثلة في استخدام أحدث أجهزة المسح وبرامج معالجة البيانات ليست "
+"اختيارًا، بل التزامًا بتقديم أدق النتائج بأفضل التقنيات لتوفير الوقت والمال "
+"لعملائنا."
+
+#: .\templates\pages\home.html:306 .\templates\pages\home.html:309
+msgid "محترفون"
+msgstr "محترفون"
+
+#: .\templates\pages\home.html:310
+msgid ""
+"فريقنا المتخصص من المحترفين في مجال مسح الأراضي ورسم الخرائط يجعلنا فخورين "
+"للغاية ويمنحنا الثقة لتقديم أعلى مستويات الجودة."
+msgstr ""
+"فريقنا المتخصص من المحترفين في مجال مسح الأراضي ورسم الخرائط يجعلنا فخورين "
+"للغاية ويمنحنا الثقة لتقديم أعلى مستويات الجودة."
+
+#: .\templates\pages\home.html:318 .\templates\pages\home.html:321
+msgid "دقة لا تُقارن"
+msgstr "دقة لا تُقارن"
+
+#: .\templates\pages\home.html:322
+msgid ""
+"لا شك أن هندسة المساحة هي الأساس لأي عمل هندسي، لذلك فإن الدقة في أعمالنا "
+"ليست خيارًا بل التزامًا لتحقيق نجاح كل مشروع."
+msgstr ""
+"لا شك أن هندسة المساحة هي الأساس لأي عمل هندسي، لذلك فإن الدقة في أعمالنا "
+"ليست خيارًا بل التزامًا لتحقيق نجاح كل مشروع."
+
+#: .\templates\pages\home.html:348
+msgid "رؤية مؤسسنا"
+msgstr "رؤية مؤسسنا"
+
+#: .\templates\pages\home.html:349
+msgid "المؤسس: المهندس المدني / عمرو علي"
+msgstr "المؤسس: المهندس المدني / عمرو علي"
+
+#: .\templates\pages\home.html:350
+msgid ""
+"على الرغم من أننا لسنا أكبر شركة في المنطقة، إلا أنه حتى الشركات الكبيرة لا "
+"تتخصص في كل جانب من جوانب المجال الواسع للهندسة المدنية. لدينا المرونة "
+"اللازمة للدخول في شراكة مع الشركات المتخصصة حسب الحاجة، وقد فعلنا ذلك في "
+"العديد من المشاريع السابقة. نعتقد أن مشاركتنا في هذه الشراكات تؤدي إلى مشروع "
+"أكثر بساطة مع التركيز بشكل أفضل على التفاصيل."
+msgstr ""
+"على الرغم من أننا لسنا أكبر شركة في المنطقة، إلا أنه حتى الشركات الكبيرة لا "
+"تتخصص في كل جانب من جوانب المجال الواسع للهندسة المدنية. لدينا المرونة "
+"اللازمة للدخول في شراكة مع الشركات المتخصصة حسب الحاجة، وقد فعلنا ذلك في "
+"العديد من المشاريع السابقة. نعتقد أن مشاركتنا في هذه الشراكات تؤدي إلى مشروع "
+"أكثر بساطة مع التركيز بشكل أفضل على التفاصيل."
+
+#: .\templates\pages\home.html:354
+msgid "تعرف على المزيد عنا"
+msgstr "تعرف على المزيد عنا"
+
+#: .\templates\pages\home.html:358
+msgid "اكتشف خدماتنا"
+msgstr "اكتشف خدماتنا"
+
+#: .\templates\pages\home.html:368
+msgid "المؤسس المهندس عمرو علي"
+msgstr "المؤسس المهندس عمرو علي"
+
+#: .\templates\pages\home.html:383 .\templates\pages\home.html:385
+msgid "أحدث التقنيات"
+msgstr "أحدث التقنيات"
+
+#: .\templates\pages\home.html:386
+msgid ""
+"نستخدم أحدث أجهزة القياس والمسح الهندسي لضمان دقة وجودة عالية في جميع "
+"مشاريعنا."
+msgstr ""
+"نستخدم أحدث أجهزة القياس والمسح الهندسي لضمان دقة وجودة عالية في جميع "
+"مشاريعنا."
+
+#: .\templates\pages\home.html:393 .\templates\pages\home.html:395
+msgid "جاهزية مستمرة"
+msgstr "جاهزية مستمرة"
+
+#: .\templates\pages\home.html:396
+msgid ""
+"فريقنا جاهز دائمًا لتقديم الخدمات في الوقت المحدد، وندرك أهمية الالتزام "
+"بالمواعيد النهائية."
+msgstr ""
+"فريقنا جاهز دائمًا لتقديم الخدمات في الوقت المحدد، وندرك أهمية الالتزام "
+"بالمواعيد النهائية."
+
+#: .\templates\pages\home.html:403 .\templates\pages\home.html:405
+msgid "فريق محترف"
+msgstr "فريق محترف"
+
+#: .\templates\pages\home.html:406
+msgid ""
+"يضم فريقنا نخبة من المهندسين والفنيين المحترفين المتخصصين في مجالات المساحة "
+"والبناء."
+msgstr ""
+"يضم فريقنا نخبة من المهندسين والفنيين المحترفين المتخصصين في مجالات المساحة "
+"والبناء."
+
+#: .\templates\pages\home.html:420
+msgid "هل تحتاج إلى استشارة هندسية سريعة؟"
+msgstr "هل تحتاج إلى استشارة هندسية سريعة؟"
+
+#: .\templates\pages\home.html:421
+msgid ""
+"فريقنا متاح على مدار الساعة لتقديم الدعم الفني والاستشارات لأي مشروع هندسي."
+msgstr ""
+"فريقنا متاح على مدار الساعة لتقديم الدعم الفني والاستشارات لأي مشروع هندسي."
+
+#: .\templates\partials\_footer.html:13 .\templates\partials\_navbar.html:28
+msgid "شعار TSO"
+msgstr "شعار TSO"
+
+#: .\templates\partials\_footer.html:16
+msgid ""
+"نبتكر تجارب رقمية متميزة من خلال التصميم المدروس والحلول الإبداعية التي تعزز "
+"حضور علامتك التجارية."
+msgstr ""
+"نبتكر تجارب رقمية متميزة من خلال التصميم المدروس والحلول الإبداعية التي تعزز "
+"حضور علامتك التجارية."
+
+#: .\templates\partials\_footer.html:22
+msgid "123 شارع الإبداع، حي التصميم، التجمع الخامس 10012"
+msgstr "123 شارع الإبداع، حي التصميم، التجمع الخامس 10012"
+
+#: .\templates\partials\_footer.html:26
+msgid "+201127078236"
+msgstr "+201127078236"
+
+#: .\templates\partials\_footer.html:30 .\templates\partials\_navbar.html:9
+msgid "info@total-surveying.com"
+msgstr "info@total-surveying.com"
+
+#: .\templates\partials\_footer.html:42
+msgid "من نحن"
+msgstr "من نحن"
+
+#: .\templates\partials\_footer.html:44
+msgid "قصتنا"
+msgstr "قصتنا"
+
+#: .\templates\partials\_footer.html:45
+msgid "منهج التصميم"
+msgstr "منهج التصميم"
+
+#: .\templates\partials\_footer.html:46 .\templates\partials\_navbar.html:35
+msgid "معرض الأعمال"
+msgstr "معرض الأعمال"
+
+#: .\templates\partials\_footer.html:47
+msgid "دراسات الحالة"
+msgstr "دراسات الحالة"
+
+#: .\templates\partials\_footer.html:48
+msgid "الجوائز"
+msgstr "الجوائز"
+
+#: .\templates\partials\_footer.html:55 .\templates\partials\_navbar.html:34
+msgid "الخدمات"
+msgstr "الخدمات"
+
+#: .\templates\partials\_footer.html:57
+msgid "الهوية البصرية"
+msgstr "الهوية البصرية"
+
+#: .\templates\partials\_footer.html:58
+msgid "تصميم المواقع"
+msgstr "تصميم المواقع"
+
+#: .\templates\partials\_footer.html:59
+msgid "تطبيقات الجوال"
+msgstr "تطبيقات الجوال"
+
+#: .\templates\partials\_footer.html:60
+msgid "الاستراتيجية الرقمية"
+msgstr "الاستراتيجية الرقمية"
+
+#: .\templates\partials\_footer.html:61
+msgid "الاستشارات"
+msgstr "الاستشارات"
+
+#: .\templates\partials\_footer.html:68
+msgid "الموارد"
+msgstr "الموارد"
+
+#: .\templates\partials\_footer.html:70
+msgid "مدونة التصميم"
+msgstr "مدونة التصميم"
+
+#: .\templates\partials\_footer.html:71
+msgid "دليل الأنماط"
+msgstr "دليل الأنماط"
+
+#: .\templates\partials\_footer.html:72
+msgid "الموارد المجانية"
+msgstr "الموارد المجانية"
+
+#: .\templates\partials\_footer.html:73
+msgid "الدروس التعليمية"
+msgstr "الدروس التعليمية"
+
+#: .\templates\partials\_footer.html:74
+msgid "الإلهام"
+msgstr "الإلهام"
+
+#: .\templates\partials\_footer.html:83
+msgid "ابدأ مشروعك"
+msgstr "ابدأ مشروعك"
+
+#: .\templates\partials\_footer.html:84
+msgid "احجز مكالمة"
+msgstr "احجز مكالمة"
+
+#: .\templates\partials\_footer.html:85
+msgid "اشترك في النشرة"
+msgstr "اشترك في النشرة"
+
+#: .\templates\partials\_footer.html:86
+msgid "تابع التحديثات"
+msgstr "تابع التحديثات"
+
+#: .\templates\partials\_footer.html:87
+msgid "الشراكات"
+msgstr "الشراكات"
+
+#: .\templates\partials\_footer.html:109
+msgid "TSO"
+msgstr "TSO"
+
+#: .\templates\partials\_footer.html:110
+msgid "جميع الحقوق محفوظة."
+msgstr "جميع الحقوق محفوظة."
+
+#: .\templates\partials\_footer.html:117
+msgid "سياسة الخصوصية"
+msgstr "سياسة الخصوصية"
+
+#: .\templates\partials\_footer.html:118
+msgid "شروط الاستخدام"
+msgstr "شروط الاستخدام"
+
+#: .\templates\partials\_footer.html:119
+msgid "سياسة الكوكيز"
+msgstr "سياسة الكوكيز"
+
+#: .\templates\partials\_navbar.html:12
+msgid "201127078236"
+msgstr "201127078236"
+
+#: .\templates\partials\_navbar.html:16
+msgid "تويتر"
+msgstr "تويتر"
+
+#: .\templates\partials\_navbar.html:17
+msgid "فيسبوك"
+msgstr "فيسبوك"
+
+#: .\templates\partials\_navbar.html:18
+msgid "إنستغرام"
+msgstr "إنستغرام"
+
+#: .\templates\partials\_navbar.html:19
+msgid "لينكدإن"
+msgstr "لينكدإن"
+
+#: .\templates\partials\_navbar.html:33
+msgid "الرئيسية"
+msgstr "الرئيسية"
+
+#: .\templates\partials\_navbar.html:36
+msgid "الدورات التدريبية"
+msgstr "الدورات التدريبية"
+
+#: .\templates\partials\_navbar.html:37
+msgid "المدونات"
+msgstr "المدونات"
+
+#: .\templates\partials\_navbar.html:38
+msgid "TSO فيديوز"
+msgstr "TSO فيديوز"
+
+#: .\templates\partials\_navbar.html:39
+msgid "قيمنا"
+msgstr "قيمنا"
+
+#: .\templates\partials\_navbar.html:40
+msgid "اتصل بنا"
+msgstr "اتصل بنا"
+
+#: .\tso\settings\common.py:117
+msgid "English"
+msgstr "English"
+
+#: .\tso\settings\common.py:118
+msgid "Arabic"
+msgstr "Arabic"

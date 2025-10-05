@@ -1,7 +1,6 @@
 {% load static i18n %}
 
-<header id="header" class="header fixed-top" dir="rtl">
-
+<header id="header" class="header fixed-top" dir="{% if LANGUAGE_CODE == 'ar' %}rtl{% else %}ltr{% endif %}">
   <div class="topbar d-flex align-items-center dark-background">
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
@@ -11,6 +10,25 @@
         <i class="bi bi-phone d-flex align-items-center ms-4">
           <span>{% trans "201127078236" %}</span>
         </i>
+
+        {# Language Switcher Added Here #}
+        <div class="language-switcher d-flex align-items-center ms-4">
+          <form action="{% url 'set_language' %}" method="post">
+            {% csrf_token %}
+            <input name="next" type="hidden" value="{{ request.get_full_path }}">
+            <select name="language" onchange="this.form.submit()" class="form-select form-select-sm border-0 bg-transparent text-white p-0" style="width: fit-content;">
+              {% get_current_language as LANGUAGE_CODE %}
+              {% get_available_languages as LANGUAGES %}
+              {% for lang_code, lang_name in LANGUAGES %}
+                <option class="text-black" value="{{ lang_code }}" {% if lang_code == LANGUAGE_CODE %}selected{% endif %}>
+                  {{ lang_name|upper }}
+                </option>
+              {% endfor %}
+            </select>
+          </form>
+        </div>
+        {# End Language Switcher #}
+
       </div>
       <div class="social-links d-none d-md-flex align-items-center">
         <a href="#" class="twitter" title="{% trans 'تويتر' %}"><i class="bi bi-twitter-x"></i></a>
@@ -20,8 +38,6 @@
       </div>
     </div>
   </div>
-  <!-- نهاية الشريط العلوي -->
-
   <div class="branding d-flex align-items-center">
     <div class="container position-relative d-flex align-items-center justify-content-between">
       <a href="{% url 'home' %}" class="logo d-flex align-items-center">
